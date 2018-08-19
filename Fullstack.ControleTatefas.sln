@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStack.ControleTarefas.API", "FullStack.ControleTarefas.API\FullStack.ControleTarefas.API.csproj", "{88CF906D-D912-42C7-8DBE-AC05257B5E14}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 -Domain", "0 -Domain", "{500F3FCE-3350-4015-BC26-49B935C355FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Tests", "1 - Tests", "{C6568C06-4300-45EC-98F1-514DFEB78609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{E0BC0315-F41E-480F-9B3D-38917D940465}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - API", "3 - API", "{C633D6C5-67A2-4F0E-BCE2-06C94E9212B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Presentation", "4 - Presentation", "{B8FBB8E6-A184-43F1-96A2-609A4B449951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fullstack.Domain", "Fullstack.Domain\Fullstack.Domain.csproj", "{BCF2856C-8585-4F8A-82F3-91BF8A30A448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,17 @@ Global
 		{88CF906D-D912-42C7-8DBE-AC05257B5E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88CF906D-D912-42C7-8DBE-AC05257B5E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88CF906D-D912-42C7-8DBE-AC05257B5E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF2856C-8585-4F8A-82F3-91BF8A30A448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF2856C-8585-4F8A-82F3-91BF8A30A448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF2856C-8585-4F8A-82F3-91BF8A30A448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF2856C-8585-4F8A-82F3-91BF8A30A448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88CF906D-D912-42C7-8DBE-AC05257B5E14} = {C633D6C5-67A2-4F0E-BCE2-06C94E9212B1}
+		{BCF2856C-8585-4F8A-82F3-91BF8A30A448} = {500F3FCE-3350-4015-BC26-49B935C355FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84F4AAFD-6AC7-4CF0-B95D-F08A07D71479}
